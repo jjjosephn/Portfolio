@@ -25,6 +25,9 @@ import {
    carrent,
    jobit,
    tripguide,
+   focusup,
+   safelink,
+   launchpad,
  } from "../assets";
  
  export const navLinks = [
@@ -33,8 +36,8 @@ import {
      title: "About",
    },
    {
-     id: "work",
-     title: "Work",
+     id: "projects",
+     title: "Projects",
    },
    {
      id: "contact",
@@ -83,11 +86,11 @@ import {
     icon: sql,
   },
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -180,97 +183,73 @@ import {
   },
  ];
  
- const testimonials = [
-   {
-     testimonial:
-       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-     name: "Sara Lee",
-     designation: "CFO",
-     company: "Acme Co",
-     image: "https://randomuser.me/api/portraits/women/4.jpg",
-   },
-   {
-     testimonial:
-       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-     name: "Chris Brown",
-     designation: "COO",
-     company: "DEF Corp",
-     image: "https://randomuser.me/api/portraits/men/5.jpg",
-   },
-   {
-     testimonial:
-       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-     name: "Lisa Wang",
-     designation: "CTO",
-     company: "456 Enterprises",
-     image: "https://randomuser.me/api/portraits/women/6.jpg",
-   },
- ];
- 
  const projects = [
    {
-     name: "Car Rent",
+     name: "Launchpad",
      description:
-       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+       "An interactive platform designed to connect innovators, entrepreneurs, and enthusiasts. It serves as a hub for showcasing projects, startups, and ideas, allowing users to find collaborators and build their teams.",
      tags: [
        {
-         name: "react",
+         name: "Next.js",
          color: "blue-text-gradient",
        },
        {
-         name: "mongodb",
+         name: "TypeScript",
          color: "green-text-gradient",
        },
        {
-         name: "tailwind",
+         name: "Sanity",
          color: "pink-text-gradient",
        },
      ],
-     image: carrent,
-     source_code_link: "https://github.com/",
+     link: 'https://launchpad-eight-puce.vercel.app/',
+     image: launchpad,
+     source_code_link: "https://github.com/jjjosephn/launchpad",
    },
    {
-     name: "Job IT",
+     name: "SafeLink",
      description:
-       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+       "An application designed to help users manage and store contact information. The application allows users to create, read, update, and delete contact details making it ideal for personal or business use.",
      tags: [
        {
-         name: "react",
+         name: "Javascript",
          color: "blue-text-gradient",
        },
        {
-         name: "restapi",
+         name: "Java",
          color: "green-text-gradient",
        },
        {
-         name: "scss",
+         name: "PostgreSQL",
          color: "pink-text-gradient",
        },
      ],
-     image: jobit,
-     source_code_link: "https://github.com/",
+     link: 'https://github.com/jjjosephn/SafeLink',
+     image: safelink,
+     source_code_link: "https://github.com/jjjosephn/SafeLink",
    },
    {
-     name: "Trip Guide",
+     name: "Focus-Up",
      description:
-       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+       "A task management platform to help users stay productive. By breaking work into focused intervals and tracking tasks in one place, it helps users maximize efficiency and maintain clarity throughout their day.",
      tags: [
        {
-         name: "nextjs",
+         name: "Javascript",
          color: "blue-text-gradient",
        },
        {
-         name: "supabase",
+         name: "HTML",
          color: "green-text-gradient",
        },
        {
-         name: "css",
+         name: "CSS",
          color: "pink-text-gradient",
        },
      ],
-     image: tripguide,
-     source_code_link: "https://github.com/",
+     link: 'https://focus-up-vert.vercel.app/',
+     image: focusup,
+     source_code_link: "https://github.com/jjjosephn/Focus-Up",
    },
  ];
  
- export { services, technologies, experiences, testimonials, projects };
+ export { services, technologies, experiences, projects };

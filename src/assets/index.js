@@ -31,6 +31,9 @@ import raw from "./company/raw.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import safelink from "./safelink.png";
+import focusup from "./focusup.png";
+import launchpad from "./launchpad.png";
 
 export {
   logo,
@@ -63,4 +66,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  safelink,
+  launchpad,
+  focusup,
 };
