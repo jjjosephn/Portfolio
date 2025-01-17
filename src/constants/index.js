@@ -119,7 +119,7 @@ import {
     icon: firebase,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
  ];
