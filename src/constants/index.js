@@ -1,5 +1,5 @@
 import {
-   mobile,
+   entrepreneur,
    backend,
    instructor,
    web,
@@ -15,10 +15,10 @@ import {
    git,
    figma,
    docker,
-   meta,
-   starbucks,
-   tesla,
-   shopify,
+   microsoft,
+   whizara,
+   sce,
+   raw,
    carrent,
    jobit,
    tripguide,
@@ -55,7 +55,7 @@ import {
    },
    {
       title: "Sneaker Reseller",
-      icon: mobile,
+      icon: entrepreneur,
    }
  ];
  
@@ -115,58 +115,59 @@ import {
  ];
  
  const experiences = [
-   {
-     title: "React.js Developer",
-     company_name: "Starbucks",
-     icon: starbucks,
-     iconBg: "#383E56",
-     date: "March 2020 - April 2021",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
-   {
-     title: "React Native Developer",
-     company_name: "Tesla",
-     icon: tesla,
-     iconBg: "#E6DEDD",
-     date: "Jan 2021 - Feb 2022",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
-   {
-     title: "Web Developer",
-     company_name: "Shopify",
-     icon: shopify,
-     iconBg: "#383E56",
-     date: "Jan 2022 - Jan 2023",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
-   {
-     title: "Full stack Developer",
-     company_name: "Meta",
-     icon: meta,
-     iconBg: "#E6DEDD",
-     date: "Jan 2023 - Present",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
+  {
+    title: "Computer Programming Instructor",
+    company_name: "Whizara",
+    icon: whizara,
+    link: 'https://www.whizara.com/',
+    iconBg: "#E6DEDD",
+    date: "Aug 2024 - Present",
+    points: [
+       'Deliver Python programming courses to students of all levels, building a strong foundation in core concepts',
+       'Guide students through hands-on projects to develop real-world problem-solving and computational thinking skills',
+       'Foster an inclusive learning environment, offering personalized support to inspire success and passion for computer science'
+    ],
+  },
+  {
+    title: "Computer Science Teaching Assistant	",
+    company_name: "Mircrosoft TEALS",
+    icon: microsoft,
+    link: 'https://www.microsoft.com/en-us/teals',
+    iconBg: "#E6DEDD",
+    date: "March 2024 - Present",
+    points: [
+    'Assist in teaching over 70+ high school students fundamentals of computer science and programming',
+    'Devise lesson plans and resources to improve student learning with interactive exercises and projects', 
+    'Collaborate with teachers and other volunteers to ensure a comprehensive educational experience'
+    
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "SJSU College of Engineering",
+    icon: sce,
+    link: 'https://sce.sjsu.edu/',
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Aug 2024",
+    points: [
+      'Facilitated in developing a transit schedule system for SJSU with real-time bus and shuttle updates',
+      'Reduced API calls by 20%, with Python, by skipping stops with three or more future predictions', 
+      'Automated sending of updated cache data via open HTTP connections, eliminating user refresh'
+    ],
+  },
+  {
+    title: "Shift Lead",
+    company_name: "Raw - Superfood Cafe",
+    icon: raw,
+    link: 'https://www.raw.cafe/',
+    iconBg: "#E6DEDD",
+    date: "Oct 2022  - Sep 2024",
+    points: [
+      "Managed daily operations to ensure smooth workflow, including employee scheduling, inventory control, and food quality assurance",
+      "Supervised and trained staff, fostering a collaborative team environment and enhancing customer service standards",
+      "Resolved customer issues efficiently, maintaining a high level of satisfaction while meeting sales targets and promoting brand loyalty"
+    ],
+  },
  ];
  
  const testimonials = [

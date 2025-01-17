@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
 import instructor from "./instructor.png";
-import mobile from "./mobile.png";
+import entrepreneur from "./entrepreneur.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import microsoft from "./company/microsoft.png";
+import whizara from "./company/whizara.png";
+import sce from "./company/sce.png";
+import raw from "./company/raw.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -34,7 +34,7 @@ export {
   logo,
   backend,
   instructor,
-  mobile,
+  entrepreneur,
   web,
   github,
   menu,
@@ -52,10 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  microsoft,
+  whizara,
+  sce,
+  raw,
   carrent,
   jobit,
   tripguide,
