@@ -4,10 +4,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
-import Feedbacks from './components/Feedbacks'
 import Tech from './components/Tech'
 import Contact from './components/Contact'
 import Stars from './components/canvas/Stars'
+import Entrepreneur from './components/Entrepreneur'
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Projects />
-        <Feedbacks />
+        <Entrepreneur />
       </div>
       <div className='relative z-0'>
         <Contact />

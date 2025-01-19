@@ -22,9 +22,6 @@ import {
    whizara,
    sce,
    raw,
-   carrent,
-   jobit,
-   tripguide,
    focusup,
    safelink,
    launchpad,
@@ -38,6 +35,10 @@ import {
    {
      id: "projects",
      title: "Projects",
+   },
+   {
+    id: "entrepreneur",
+    title: "Entrepreneur",
    },
    {
      id: "contact",
@@ -117,10 +118,10 @@ import {
     name: "PostgreSQL",
     icon: postgresql,
   },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
   {
     name: "Git",
     icon: git,
