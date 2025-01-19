@@ -20,8 +20,8 @@ const Jordans = ({ isMobile }) => {
       />
       <primitive 
         object={jordans.scene}
-        scale={isMobile ? 10 : 15}
-        position={isMobile ? [0, -2, -2.2] : [0, -1.8, 0]} 
+        scale={isMobile ? 10 : 20}
+        position={isMobile ? [0, -2, -2.2] : [0, -2.9, 0]} 
         rotation={[0.05, -3, 0]}
         />
     </mesh>

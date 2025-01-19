@@ -118,10 +118,6 @@ import {
     name: "PostgreSQL",
     icon: postgresql,
   },
-  // {
-  //   name: "Firebase",
-  //   icon: firebase,
-  // },
   {
     name: "Git",
     icon: git,
@@ -250,7 +246,25 @@ import {
      link: 'https://focus-up-vert.vercel.app/',
      image: focusup,
      source_code_link: "https://github.com/jjjosephn/Focus-Up",
-   },
- ];
+    },
+  ];
+
+  const testimonials = [
+    {
+      testimonial:
+        "Shipping was super quick to Canada, great packaging, and easy communication. Thank you sm! I would definitely buy again.",
+      name: "rrachellynch",
+    },
+    {
+      testimonial:
+        "Lost on the SNKRS app, but won with @sickiqs. Great communication and quick and easy transaction. He even shipped to accommodate my busy schedule. Can’t wait to do more business. 💜",
+      name: "stelulite",
+    },
+    {
+      testimonial:
+        "It was nothing but good business. A smooth transition with great communication. Can’t ask for anything more. Definitely buying again. Buddy solid 💪🏾",
+      name: "owl_leroy",
+    },
+  ];
  
- export { services, technologies, experiences, projects };
+ export { services, technologies, experiences, projects, testimonials };

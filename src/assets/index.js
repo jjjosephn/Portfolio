@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import businesslogo from "./businesslogo.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -69,4 +70,5 @@ export {
   safelink,
   launchpad,
   focusup,
+  businesslogo
 };
