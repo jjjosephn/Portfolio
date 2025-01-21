@@ -5,6 +5,7 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
   const [ form, setForm ] = useState({ name: '', email: '', message: '' })
@@ -34,7 +35,7 @@ const Contact = () => {
     )
     .then(() => {
       setLoading(false)
-      alert('Message sent successfully!')
+      toast('Message sent successfully!')
       setForm({ name: '', email: '', message: '' })
     }, (error) => {
       setLoading(false)
@@ -103,6 +104,16 @@ const Contact = () => {
               >
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
+              <ToastContainer
+                position="top-right"
+                autoClose={2000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss
+                theme="light"
+                />
             </div>
           </form>
       </motion.div>
