@@ -49,7 +49,9 @@ const Entrepreneur = () => {
       >
         <div className="flex items-center justify-between w-full h-full">
           <JordansCanvas />
-          <div className="w-1/2">
+          <motion.div 
+            variants={fadeIn('left', 'spring', 0.1)}
+            className="w-1/2">
             <Tilt>
               <a 
                 href='https://www.instagram.com/sickiqs/' 
@@ -57,23 +59,22 @@ const Entrepreneur = () => {
                 rel='noreferrer' 
                 className="block w-fit mx-auto hover:opacity-75 hover:scale-105 transition-transform"
               >
-                <img src={businesslogo} alt='Sickiqs' className='w-1/3 mx-auto mb-3' />
+                <img src={businesslogo} alt='Sickiqs' className='w-[5rem] mx-auto mb-3' />
               </a>
             </Tilt>
-            <ul className='mt-2 text-secondary text-[22px]  list-disc'>
+            <ul className='mt-2 text-secondary list-disc text-xs leading-[1.5] sm:text-[18px]'>
               <li> 
                 Generated over $70,000 in revenue, averaging 30% profit margins
               </li>
               <li className='mt-4'>
-                Accumulated a total of 350 sneakers sold and over 150 positive reviews
-                across all platforms
+                Accumulated a total of 350 sneakers sold and over 150 positive reviews across all platforms
               </li>
               <li className='mt-4'>
-                Managed a team of 2 to optimize the acquisition of high-demand sneakers, 
-                maximizing business profitability
+                Managed a team of 2 to optimize the acquisition of high-demand sneakers, maximizing business profitability
               </li>
             </ul>
-          </div>
+
+          </motion.div>
         </div>
       </section>
       
@@ -89,7 +90,7 @@ const Entrepreneur = () => {
             className='hover:underline text-secondary w-full'
           >
             <p 
-              className='w-full text-center text-secondary text-[20px] font-semibold' 
+              className='w-full text-center text-secondary text-[17px] font-semibold' 
               style={{ margin: 0 }}
             >
               More

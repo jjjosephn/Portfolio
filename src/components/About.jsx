@@ -39,12 +39,11 @@ const About = () => {
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'>
-        I thrive on building and collaborating on software solutions 
-        that empower local businesses and solve real-world challenges. 
-        In addition to my technical work, I run a sneaker reselling business 
-        called Sickiqs and mentor students in programming, where I find fulfillment in 
-        teaching and guiding others. I'm always eager to learn, collaborate, and 
-        leverage technology to create meaningful change.
+        My goal is to become a software engineer who builds and collaborates on innovative 
+        solutions that empower local businesses and solve real-world problems. In additon to 
+        programming, I run a sneaker reselling business and mentor students in programming, 
+        where I find fulfillment in teaching and guiding others. I'm always eager to learn, 
+        collaborate, and leverage technology to create meaningful change.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -62,6 +62,15 @@ const Experience = () => {
             <ExperienceCard key={index} experience={experience} />
           ))}
         </VerticalTimeline>
+
+        <a 
+          href='https://www.linkedin.com/in/josephnguyen-cs/' 
+          target='_blank' 
+          rel='noreferrer' 
+          className='hover:underline'
+        >
+          <p className='w-full text-[20px] font-semibold text-center mt-[15px]'>For More Information</p>
+        </a>
       </div>
     </>
   )

@@ -82,10 +82,10 @@ import {
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "SQL",
-    icon: sql,
-  },
+  // {
+  //   name: "SQL",
+  //   icon: sql,
+  // },
   {
     name: "HTML",
     icon: html,
@@ -93,10 +93,6 @@ import {
   {
     name: "CSS",
     icon: css,
-  },
-  {
-    name: "React.js",
-    icon: reactjs,
   },
   {
     name: "Next.js",
@@ -117,10 +113,6 @@ import {
   {
     name: "PostgreSQL",
     icon: postgresql,
-  },
-  {
-    name: "Git",
-    icon: git,
   },
  ];
  
@@ -209,11 +201,11 @@ import {
        "An application designed to help users manage and store contact information. The application allows users to create, read, update, and delete contact details making it ideal for personal or business use.",
      tags: [
        {
-         name: "Javascript",
+         name: "Java",
          color: "blue-text-gradient",
        },
        {
-         name: "Java",
+         name: "SpringBoot",
          color: "green-text-gradient",
        },
        {

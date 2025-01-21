@@ -76,6 +76,14 @@ const Projects = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        <a 
+          href='https://github.com/jjjosephn' 
+          target='_blank' 
+          rel='noreferrer' 
+          className='w-full text-center hover:underline'
+        >
+          <p className='text-[20px] font-semibold mt-[15px]'>For More Information</p>
+        </a>
       </div>
     </>
   )

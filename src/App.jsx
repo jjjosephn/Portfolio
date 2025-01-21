@@ -23,7 +23,7 @@ const App = () => {
         <Projects />
         <Entrepreneur />
       </div>
-      <div className='relative z-0'>
+      <div className='relative z-0 bg-primary'>
         <Contact />
         <Stars />
       </div>

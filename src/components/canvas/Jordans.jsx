@@ -8,10 +8,10 @@ const Jordans = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={4} groundColor='black' />
+      <hemisphereLight intensity={3} groundColor='black' />
       <pointLight intensity={1} />
       <spotLight
-        position={[-50, 50, 10]}
+        position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
         intensity={2}
@@ -20,10 +20,11 @@ const Jordans = ({ isMobile }) => {
       />
       <primitive 
         object={jordans.scene}
-        scale={isMobile ? 10 : 20}
-        position={isMobile ? [0, -2, -2.2] : [0, -2.9, 0]} 
-        rotation={[0.05, -3, 0]}
-        />
+        scale={isMobile? 13 : 20}
+        position-y={isMobile ? -1.9 : -3}
+        position-x={isMobile ? 0 : 1}
+        rotation={[0, -3, 0]}
+      />
     </mesh>
   )
 }
