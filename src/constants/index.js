@@ -7,24 +7,21 @@ import {
    typescript,
    html,
    css,
-   reactjs,
    tailwind,
-   git,
-   firebase,
    java,
    mysql,
    nextjs,
    postgresql,
    python,
    springboot,
-   sql,
    microsoft,
    whizara,
    sce,
    raw,
-   focusup,
    safelink,
    launchpad,
+   bossy,
+   stockiqs
  } from "../assets";
  
  export const navLinks = [
@@ -127,7 +124,7 @@ import {
     icon: whizara,
     link: 'https://www.whizara.com/',
     iconBg: "#E6DEDD",
-    date: "Aug 2024 - Present",
+    date: "Aug 2024 - Jun 2025",
     points: [
        'Deliver Python programming courses to students of all levels, building a strong foundation in core concepts',
        'Guide students through hands-on projects to develop real-world problem-solving and computational thinking skills',
@@ -140,7 +137,7 @@ import {
     icon: microsoft,
     link: 'https://www.microsoft.com/en-us/teals',
     iconBg: "#E6DEDD",
-    date: "March 2024 - Present",
+    date: "Mar 2024 - Jun 2025",
     points: [
     'Assist in teaching over 70+ high school students fundamentals of computer science and programming',
     'Devise lesson plans and resources to improve student learning with interactive exercises and projects', 
@@ -176,74 +173,97 @@ import {
   },
  ];
  
- const projects = [
-   {
-     name: "Launchpad",
-     description:
-       "An interactive platform designed to connect innovators, entrepreneurs, and enthusiasts. It serves as a hub for showcasing projects, startups, and ideas, allowing users to find collaborators and build their teams.",
-     tags: [
-       {
-         name: "Next.js",
-         color: "blue-text-gradient",
-       },
-       {
-         name: "TypeScript",
-         color: "green-text-gradient",
-       },
-       {
-         name: "Sanity",
-         color: "pink-text-gradient",
-       },
-     ],
-     link: 'https://launchpad-eight-puce.vercel.app/',
-     image: launchpad,
-     source_code_link: "https://github.com/jjjosephn/launchpad",
-   },
-   {
-     name: "SafeLink",
-     description:
-       "An application designed to help users manage and store contact information. The application allows users to create, read, update, and delete contact details making it ideal for personal or business use.",
-     tags: [
-       {
-         name: "Java",
-         color: "blue-text-gradient",
-       },
-       {
-         name: "SpringBoot",
-         color: "green-text-gradient",
-       },
-       {
-         name: "PostgreSQL",
-         color: "pink-text-gradient",
-       },
-     ],
-     link: 'https://github.com/jjjosephn/SafeLink',
-     image: safelink,
-     source_code_link: "https://github.com/jjjosephn/SafeLink",
-   },
-   {
-     name: "Focus-Up",
-     description:
-       "A task management platform to help users stay productive. By breaking work into focused intervals and tracking tasks in one place, it helps users maximize efficiency and maintain clarity throughout their day.",
-     tags: [
-       {
-         name: "Javascript",
-         color: "blue-text-gradient",
-       },
-       {
-         name: "HTML",
-         color: "green-text-gradient",
-       },
-       {
-         name: "CSS",
-         color: "pink-text-gradient",
-       },
-     ],
-     link: 'https://focus-up-vert.vercel.app/',
-     image: focusup,
-     source_code_link: "https://github.com/jjjosephn/Focus-Up",
-    },
-  ];
+  const projects = 
+    [
+      {
+        name: "Bossy",
+        description:
+          "A platform that empowers employees to anonymously review and rate their bosses and companies. By fostering workplace transparency, we help job seekers make informed career decisions.",
+        tags: [
+          {
+            name: "Next.js",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Express.js",
+            color: "green-text-gradient",
+          },
+          {
+            name: "AWS",
+            color: "pink-text-gradient",
+          },
+        ],
+        link: 'https://bossy.onl/',
+        image: bossy,
+        source_code_link: "https://github.com/jjjosephn/bossy",
+      },
+      {
+        name: "Stockiqs",
+        description:
+          "An inventory management system designed specifically for sneaker resellers. Track your inventory, monitor profits, and streamline your reselling business with our specialized tools built by resellers, for resellers.",
+        tags: [
+          {
+            name: "Next.js",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Node.js",
+            color: "green-text-gradient",
+          },
+          {
+            name: "AWS",
+            color: "pink-text-gradient",
+          },
+        ],
+        link: 'https://stockiqs.vip',
+        image: stockiqs,
+        source_code_link: "https://github.com/jjjosephn/stockiqs",
+      },
+      {
+        name: "Launchpad",
+        description:
+          "An interactive platform designed to connect innovators, entrepreneurs, and enthusiasts. It serves as a hub for showcasing projects, startups, and ideas, allowing users to find collaborators and build their teams.",
+        tags: [
+          {
+            name: "Next.js",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "TypeScript",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Sanity",
+            color: "pink-text-gradient",
+          },
+        ],
+        link: 'https://launchpad-eight-puce.vercel.app/',
+        image: launchpad,
+        source_code_link: "https://github.com/jjjosephn/launchpad",
+      },
+      {
+        name: "SafeLink",
+        description:
+          "An application designed to help users manage and store contact information. The application allows users to create, read, update, and delete contact details making it ideal for personal or business use.",
+        tags: [
+          {
+            name: "Java",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "SpringBoot",
+            color: "green-text-gradient",
+          },
+          {
+            name: "PostgreSQL",
+            color: "pink-text-gradient",
+          },
+        ],
+        link: 'https://github.com/jjjosephn/SafeLink',
+        image: safelink,
+        source_code_link: "https://github.com/jjjosephn/SafeLink",
+      },
+    ];
 
   const testimonials = [
     {

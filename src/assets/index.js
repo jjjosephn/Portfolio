@@ -35,6 +35,8 @@ import tripguide from "./tripguide.png";
 import safelink from "./safelink.png";
 import focusup from "./focusup.png";
 import launchpad from "./launchpad.png";
+import bossy from "./bossy.png";
+import stockiqs from "./stockiqs.png";
 
 export {
   logo,
@@ -70,5 +72,7 @@ export {
   safelink,
   launchpad,
   focusup,
-  businesslogo
+  businesslogo,
+  bossy,
+  stockiqs
 };
